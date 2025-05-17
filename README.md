@@ -30,3 +30,24 @@ Install required libraries using pip:
 
 ```bash
 pip install opencv-python imutils
+▶️ Usage
+Run the script to start the motion detection:
+
+bash
+Copy
+Edit
+python motion_detection.py
+⚙️ How It Works
+🥇 The first frame is captured and used as a reference.
+
+🖤 Each new frame is converted to grayscale and blurred.
+
+➖ The absolute difference between the current frame and the reference frame is calculated.
+
+⚫ Thresholding and dilation are applied to highlight differences.
+
+🔎 Contours are detected in the thresholded image.
+
+✅ If contours exceed a minimum area, bounding boxes are drawn, and motion is detected.
+
+📺 The video feed with detected motion highlighted is displayed.
