@@ -33,6 +33,7 @@ pip install opencv-python imutils
 ```
 
 ▶️ Usage
+
 Run the script to start the motion detection:
 
 ```bash
@@ -40,6 +41,7 @@ python motion_detection.py
 ```
 
 ⚙️ How It Works
+
 🥇 The first frame is captured and used as a reference.
 
 🖤 Each new frame is converted to grayscale and blurred.
