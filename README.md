@@ -30,10 +30,3 @@ Install required libraries using pip:
 
 ```bash
 pip install opencv-python imutils
-
-▶️ Usage
-Run the script to start the motion detection:
-
-bash
-python motion_detection.py
-Press q to exit the program.
